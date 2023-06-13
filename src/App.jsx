@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Route exact path='/filters-sorts' component={Home} />
         <Route path='/Paginado/page/:page?' component={Pagination} />
         <Route exact path='/Infinite-Scroll' component={InfiniteScroll} />
       </Switch>

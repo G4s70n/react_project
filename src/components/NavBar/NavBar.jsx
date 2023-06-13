@@ -7,7 +7,7 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
-            <NavLink exact to="/" activeClassName="selected">
+            <NavLink exact to="/filters-sorts" activeClassName="selected">
               Filters y Sorts
             </NavLink>
           </li>
